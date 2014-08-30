@@ -1,0 +1,14 @@
+<document>
+	<properties>
+		<title>Jarfalla Changes</title>
+		<author email="zygimantas@idega.com">Zygimantas Stapulionis</author>
+	</properties>
+	<body>
+		<release version="0.0.1" date="2014-11-01">
+			<action dev="zygimantas" type="update">
+				Should be released the initial version of Jarfalla.
+			</action>
+		</release>
+
+	</body>
+</document>
