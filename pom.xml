@@ -36,6 +36,10 @@
 		<!-- Core dependencies -->
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.developer</artifactId>
+		</dependency>
+<!--		<dependency>
+			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.core</artifactId>
 		</dependency>
 		<dependency>
@@ -78,7 +82,7 @@
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.web2.0</artifactId>
 		</dependency>
-		<dependency>
+		 <dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.faces</artifactId>
 		</dependency>
@@ -121,9 +125,9 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.hibernate</artifactId>
-		</dependency>
+		</dependency> -->
 		<!-- eGov dependencies -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>com.idega.company</artifactId>
 		</dependency>
@@ -163,10 +167,16 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.block.nationalregister</artifactId>
 		</dependency>
+ -->		
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>se.idega.idegaweb.egov.jarfalla</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 		<!-- Private dependencies -->
 
 		<!-- Addon dependencies -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>com.idega.block.importer</artifactId>
 		</dependency>
@@ -222,7 +232,7 @@
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>org.chiba.web</artifactId>
 		</dependency>
-
+ -->
 	</dependencies>
 
 
