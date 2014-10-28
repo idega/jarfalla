@@ -171,7 +171,6 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>se.idega.idegaweb.egov.jarfalla</artifactId>
-			<version>1.0.0</version>
 		</dependency>
 		<!-- Private dependencies -->
 
