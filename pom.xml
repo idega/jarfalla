@@ -28,17 +28,12 @@
 		</developer>
 	</developers>
 	<dependencies>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.fsk</artifactId>
-		</dependency>
-
 		<!-- Core dependencies -->
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.developer</artifactId>
 		</dependency>
-<!--		<dependency>
+		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.core</artifactId>
 		</dependency>
@@ -125,56 +120,12 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.hibernate</artifactId>
-		</dependency> -->
-		<!-- eGov dependencies -->
-<!-- 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>com.idega.company</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>com.idega.block.school</artifactId>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.navigation</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.application</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.message</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.banking</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.company</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.block.family</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.block.nationalregister</artifactId>
-		</dependency>
- -->		
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>se.idega.idegaweb.egov.jarfalla</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<!-- Private dependencies -->
-
+		
 		<!-- Addon dependencies -->
 <!-- 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
@@ -233,6 +184,60 @@
 			<artifactId>org.chiba.web</artifactId>
 		</dependency>
  -->
+		
+		<!-- eGov dependencies -->
+<!-- 		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>com.idega.company</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>com.idega.block.school</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.application</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.message</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.banking</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.company</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.family</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.nationalregister</artifactId>
+		</dependency>
+ -->		
+ 		
+ 		<!-- Extending -->
+ 		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.fsk</artifactId>
+		</dependency>
+ 		<!-- Solution -->
+ 		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>se.idega.idegaweb.egov.jarfalla</artifactId>
+		</dependency>
 	</dependencies>
 
 
