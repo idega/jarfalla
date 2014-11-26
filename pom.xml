@@ -10,7 +10,6 @@
 	<groupId>com.idega.webapp.custom</groupId>
 	<artifactId>jarfalla</artifactId>
 	<packaging>iwwar</packaging>
-	<!-- <version>5.0.0-SNAPSHOT</version> -->
 	<description>The eGov project Electronic Jarfalla</description>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
@@ -125,99 +124,8 @@
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.navigation</artifactId>
 		</dependency>
-		
-		<!-- Addon dependencies -->
-<!-- 		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.importer</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.bpm</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.text</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.category</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.documents</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.boxoffice</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.cal</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.pdf</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>org.jboss.jbpm</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.form</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.email</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.block.calendar</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>com.idega.xformsmanager</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.addon</groupId>
-			<artifactId>org.chiba.web</artifactId>
-		</dependency>
- -->
-		
+				
 		<!-- eGov dependencies -->
-<!-- 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>com.idega.company</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>com.idega.block.school</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.application</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.message</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.banking</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.company</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.block.family</artifactId>
@@ -226,7 +134,6 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.block.nationalregister</artifactId>
 		</dependency>
- -->		
  		
  		<!-- Extending -->
  		<dependency>
@@ -239,7 +146,6 @@
 			<artifactId>se.idega.idegaweb.egov.jarfalla</artifactId>
 		</dependency>
 	</dependencies>
-
 
 	<distributionManagement>
 		<repository>
@@ -265,7 +171,6 @@
 
 	<build>
 		<plugins>
-
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>buildnumber-maven-plugin</artifactId>
@@ -285,8 +190,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-
 			<plugin>
 				<groupId>com.idega.maven.plugins</groupId>
 				<artifactId>com.idega.maven.webapp</artifactId>
