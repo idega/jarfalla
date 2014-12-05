@@ -30,31 +30,15 @@
 		<!-- Core dependencies -->
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.developer</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.user</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.process</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>org.apache.axis</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.builder</artifactId>
+			<artifactId>com.idega.block.article</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.entity</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.block.image</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -66,35 +50,15 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.webface</artifactId>
+			<artifactId>com.idega.block.navigation</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.jackrabbit</artifactId>
+			<artifactId>com.idega.block.process</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.web2.0</artifactId>
-		</dependency>
-		 <dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.faces</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.content</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>org.apache.myfaces</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.dwr</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.graphics</artifactId>
+			<artifactId>com.idega.block.process.webservice</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -102,19 +66,35 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.workspace</artifactId>
-		</dependency>
-	    <dependency>
-	      <groupId>com.idega.block.platform</groupId>
-	  	  <artifactId>com.idega.springframework</artifactId>
-	    </dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.manager</artifactId>
+			<artifactId>com.idega.block.web2.0</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.image</artifactId>
+			<artifactId>com.idega.builder</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.content</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.developer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.dwr</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.faces</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.graphics</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
@@ -122,7 +102,43 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.block.navigation</artifactId>
+			<artifactId>com.idega.jackrabbit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.manager</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.multidomain</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.setup</artifactId>
+		</dependency>
+		<dependency>
+	      <groupId>com.idega.block.platform</groupId>
+	  	  <artifactId>com.idega.springframework</artifactId>
+	    </dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.user</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.webface</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>com.idega.workspace</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>org.apache.axis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.platform</groupId>
+			<artifactId>org.apache.myfaces</artifactId>
 		</dependency>
 		
 		<!-- Addon dependencies -->
