@@ -150,6 +150,10 @@
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>com.idega.block.email</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.forum</artifactId>
+		</dependency>
 		
 		<!-- eGov dependencies -->
 		<dependency>
@@ -174,6 +178,10 @@
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.message</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.citizen</artifactId>
 		</dependency>
  		
  		<!-- Extending -->
